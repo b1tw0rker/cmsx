@@ -1,0 +1,19 @@
+{
+    "name": "bitworker/cmsx",
+    "description": "lorem ipsum",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bitworker\\Cmsx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "mail@bit-worker.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
