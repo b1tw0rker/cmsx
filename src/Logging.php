@@ -1,7 +1,7 @@
 <?php
 
 /*
- * (c) YOUR NAME <your@email.com>
+ * (c) BITWORKER
  *
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
@@ -11,21 +11,12 @@
 // namespace HelloComposer;
 namespace Bitworker\Cmsx;
 
-/* class Hello
-{
-    public function say($toSay = "Nothing given")
-    {
-        return $toSay;
-    }
-}
- */
 
-
-class Hello
+class Logging
 {
     var $usrid = "12345";
 
-    function Hello()
+    function Logging()
     {
         # dieses "function" heisst wie die Klasse - sobald die
         # Klasse mit NEW erstellt wird, wird diese function
