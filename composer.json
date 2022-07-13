@@ -1,7 +1,7 @@
 {
     "name": "bitworker/cmsx",
-    "version": "1.0.2",
-    "description": "lorem ipsum",
+    "version": "1.1",
+    "description": "classes for cmsx",
     "keywords": [
         "bitworker",
         "cmsx"
