@@ -16,6 +16,14 @@ class Logging
 {
     var $usrid = "12345";
 
+    private $filelog;
+
+    public function __construct()
+    {
+        $this->filelog = false;
+    }
+    
+    
     function Logging()
     {
         # dieses "function" heisst wie die Klasse - sobald die
