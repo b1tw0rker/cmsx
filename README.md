@@ -4,9 +4,11 @@
 
 Usage:
 
+```
+// Namespace
 use Bitworker\Cmsx\Logging;
 
-```
+
 $bw = new Logging();
 $bw->filelog = true;
 $bw->log("55555", "TEST", "SUCCESS");
