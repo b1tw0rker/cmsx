@@ -1,8 +1,6 @@
-# CMSX
+# CMSX - Tools and Classes for Nicks CMS
 
 ![cmsx version](https://img.shields.io/badge/version-v1.0.0-green.svg)
-
-![CI](https://github.com/b1tw0rker/cmsx/actions/workflows/main.yml/badge.svg)
 
 Usage:
 
