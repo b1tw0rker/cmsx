@@ -72,11 +72,13 @@ class Logging
         } else {
 
             if (isset($_SESSION['w']) && isset($_SESSION['h'])) {
-                $windowSize = " --- w:" . $_SESSION['w'] . " - h:" . $_SESSION['h'];
+                $windowSize = " - w:" . $_SESSION['w'] . " - h:" . $_SESSION['h'];
 
-                $userAgent = $_SERVER['HTTP_USER_AGENT'] . $windowSize;
+                $userAgent = $_SERVER['HTTP_USER_AGENT'] . $windowSize;           
+
             } else {
                 $userAgent = $_SERVER['HTTP_USER_AGENT'];
+                
             }
 
             /**

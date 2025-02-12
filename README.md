@@ -2,6 +2,8 @@
 
 ![cmsx version](https://img.shields.io/badge/version-v1.0.0-green.svg)
 
+## Todo: add more stuff to this class
+
 ## Class: Logging
 
 Usage:
